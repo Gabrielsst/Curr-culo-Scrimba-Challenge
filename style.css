@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img--info {
+    /* Image */
+    width: 317px;
+    height: 317px;
+
+    background: url(.png);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.div--info {
+    /* size of the info block */
+    width: 319px;
+    height: 493px;
+}
+
+.name--info {
+    /* Gabriel Teixeira */
+    margin: 22px 69px 0 69px;
+    font-family: 'Inter';
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.job_name--info {
+    margin: 6px 70px 0 70px;
+    text-align: center;
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-family: 'Inter';
+}
+
+.button--info {
+    margin-top: 40px;
+    border-radius: 6px; 
+    width: 115px;
+    height: 34px;
+}
+
+.button_left--info {
+    margin-left: 35px;
+    margin-right: 8.5px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB; 
+    color: #374151;  
+}
+
+.button_right--info {
+    margin-right: 35px;
+    margin-left: 8.5px;
+    background-color: #5093E2;
+    border: 1px solid #5093E2; 
+    color: #FFF
+}
+
+.container {
+    background-color: #1A1B21;
+    height: 780px;
+    width: 317px;
+    border-radius: 10px;
+    margin-left: 116px;
+    margin-top: 44px;
+}
+
+.title {
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.text {
+    color: #DCDCDC;
+    font-size: 10.24px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.container--content {
+    width: 247px;
+    height: 61px;
+}
+
+.div--about {
+    margin: 33px 38.29px 0 36px;
+}
+
+.div--interests {
+    margin: 27px 38.29px 0 36px;
+}
+
+.div--footer {
+    /* Social Icons Background */
+    width: 317px;
+    height: 64px;
+    background: #161619;    
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 40px;
+}
+
+.elements--footer {
+/* Social Icons Background */
+    position: relative;
+    width: 317px;
+    height: 64px;
+    
+}
+
+.elements--footer > svg {
+    display: inline;
+    margin: 19px 24px 0 0; 
+}
+
+.elements--footer > svg:first-child {
+    margin-left: 73px;
+}
+
+.elements--footer > svg:last-child {
+    margin-right: 72.5px;
+}
+
+.elements--footer > svg:nth-child(3) {
+    margin-left: -2px;
+}
+
+.outside_container--app {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+}
